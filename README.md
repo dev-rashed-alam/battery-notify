@@ -9,21 +9,12 @@ This program will continue to notify you every 2 minutes after your battery reac
 
 ### 1. Install dependencies: `acpi`, `libnotify`, `mpg123`, `git`
 
-#### Debian, Ubuntu, Mint (APT)
+#### Ubuntu
 `sudo apt install acpi libnotify-bin mpg123 git`
 
-#### Fedora, CentOS Stream/RHEL (DNF)
-`sudo dnf install acpi libnotify-bin mpg123 git`
-
-#### Arch, Manjaro (Pacman)
-`sudo pacman -S acpi libnotify-bin mpg123 git`
-
-#### For OpenSUSE (Zypper)
-`sudo zypper install acpi libnotify mpg123 git`
 
 ### 3. Add the `battery-notify.sh` script as a startup application
 (Open settings then search startup then add new program and select the script)
 
 ### 4. Logout and relogin your current session and enjoy elongated battery lifespan by turning of charging at 80% 👍
 
-(Don't delete the cloned repo or any files inside it after installation)
